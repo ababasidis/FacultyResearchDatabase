@@ -1,0 +1,144 @@
+nav {
+	background: #000000;
+    color: #ffffff;
+    padding: 1%;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+}
+nav h1 a, 
+nav h1 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+hr {
+	height: 2px;
+    background-color:#555;
+    margin: 2%;
+    width: 55%;
+}
+ul {
+	padding: 0;
+}
+.paper-tags ul, 
+.authorship-tags ul, 
+.subscription-container ul, 
+.keyword-tags ul, 
+footer ul {
+	list-style-type: none;
+}
+.paper-tags ul li, 
+.authorship-tags ul li, 
+.subscription-container ul li {
+	display: inline;
+}
+.right {
+	text-align: right;
+}
+.login-container {
+	padding-top: 1%;
+	text-align: right;
+}
+.login-container h4 {
+	padding: 0;
+	margin: 0;
+}
+.paper-container {
+	border: 2px solid gray;
+	border-radius: 5px;
+	width: 48%;
+	display: inline-block;
+	margin: 1.5% 1% 0 0;
+	padding: 5%;
+	text-align: center;
+	background: #D0E1ED;
+}
+.paper-container:hover {
+	background: #98A4AD;
+}
+.paper-container a:hover {
+	text-decoration: none;
+}
+.paper-search-bar, 
+.input-bar {
+	width: 100%;
+    background: #F2F5F7;
+    padding: 5px;
+}
+.paper-search-select select {
+	width: 100%;
+	background: transparent;
+	padding: 5px;
+	border-radius: 0;
+	height: 34px;
+    -webkit-appearance: none;
+}
+.paper-search-select {
+	margin: 5% 0 5% 0;
+	width: 100%;
+	height: 34px;
+	overflow: hidden;
+	background: #ddd;
+	border: 1px solid #ccc;
+}
+.login-input {
+	color: #000000;
+}
+.in {
+	text-align: center;
+	margin: 2% 0 5% 0;
+}
+.authorship-container, .subscription-container {
+	border: 2px solid gray;
+	border-radius: 5px;
+	width: 20%;
+	display: inline-block;
+	margin: 1%;
+	padding: 5%;
+	text-align: center;
+	background: #D0E1ED;
+}
+.paper-content {
+	padding: 0 5% 5% 2%;
+}
+.paper-comment-area {
+	width: 100%;
+}
+.comment-btn {
+	border-radius: 0;
+	margin: 6% 0;
+	background-color: #474B93;
+	color: #ffffff;
+}
+.comment-btn:hover {
+	background-color: #282A54;
+	color: #ffffff;
+}
+.paper-search-bar {
+	margin: 4% 0;
+}
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: .5;
+  border-radius: 25px;
+  background-color: #E03556;
+}
+footer {
+	background: #000000;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 5%;
+	padding: 2%;
+}
+.feedback-wrong {
+	width: 100%;
+	background-color: red;
+	text-align: center;
+	color: #ffffff;
+}
